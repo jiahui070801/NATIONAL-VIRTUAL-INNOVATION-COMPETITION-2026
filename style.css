@@ -79,17 +79,14 @@ section {
 }
 
 /* ===== INFO BOX（信息卡片） ===== */
-.info {
-  background: #314dbe4c; /* 深蓝背景 */
-  margin: 20px auto; /* 上下间距 + 居中 */
-  padding: 20px; /* 内边距 */
-  width: 70%; /* 响应式宽度 */
-  border-radius: 12px; /* 圆角 */
+.info { 
+  background: #e0e3f14c;
+  margin: 60px auto;   /* 🔥 改这里 */
+  padding: 50px;
+  max-width: 1000px;    /* 🔥 新加 */
+  width: 90%;          
+  border-radius: 20px;
   transition: 0.3s;
-}
-
-.info:hover {
-  transform: translateY(-8px)；
 }
 
 /* ===== BUTTON（按钮） ===== */
@@ -206,7 +203,7 @@ section {
 /* ===== MAP ===== */
 .map-container iframe {
   width: 100%; /* 响应式 */
-  height: 300px; /* 高度 */
+  height: 450px; /* 高度 */
   border: 0; /* 去边框 */
   border-radius: 10px; /* 圆角 */
 }
@@ -219,7 +216,7 @@ section {
 }
 
 .poster-container img {
-  width: 70%;
+  width: 150%;
   max-width: 1000px;
   height: auto;
 }
